@@ -1,0 +1,50 @@
+.partners-items {
+    min-height: 100px !important;
+}
+
+.partner {
+    width: 25%;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #0002;
+}
+
+.partner__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners .slick-track {
+    height: 100% !important;
+}
+
+.partners .slick-dots {
+    bottom: -50px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    /**/
+  }
+  
+  @media only screen and (max-width: 992px) {
+     /**/
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .partner__img {
+        max-width: 70%;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+     /**/
+  }
+  
+  @media only screen and (min-width: 1660px) {
+    /**/
+  }
+  

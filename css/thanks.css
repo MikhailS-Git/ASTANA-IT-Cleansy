@@ -1,0 +1,35 @@
+.thanks__letter {
+    margin-right: 20px;
+}
+
+.slick-arrow::before {
+    color: #000;
+}
+
+.slick-dots {
+  bottom: -50px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    /**/
+  }
+  
+  @media only screen and (max-width: 992px) {
+     /**/
+  }
+  
+  @media only screen and (max-width: 768px) {
+     /**/
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .slick-arrow {
+      display: none !important;
+    }
+  }
+  
+  @media only screen and (min-width: 1660px) {
+    /**/
+  }
+  
