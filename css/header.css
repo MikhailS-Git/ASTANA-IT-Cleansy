@@ -43,9 +43,13 @@
     margin-right: 30px;
 }
 
-.logo, .logo:hover ,.menu-link, .menu-link:hover {
+.logo, .logo:hover ,.menu-link {
     color: #fff;
     text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #aaa;   
 }
 
 .header__phone {
