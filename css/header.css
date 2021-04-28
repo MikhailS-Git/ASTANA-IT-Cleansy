@@ -43,13 +43,17 @@
     margin-right: 30px;
 }
 
-.logo, .logo:hover ,.menu-link {
+.logo, .logo:hover ,.menu-link, .header__phone a {
     color: #fff;
     text-decoration: none;
 }
 
 .menu-link:hover {
-    color: #aaa;   
+    color: #aaa;
+}
+
+.header__menu-mb__tel {
+    display: none;
 }
 
 .header__phone {
@@ -125,6 +129,7 @@
         margin-top: 0;
         background-color: #000;
         overflow: hidden;
+        
     }
 
     .menu-list {
@@ -136,8 +141,24 @@
         font-size: 25px;
     }
 
+    .menu-li {
+        margin-right: 0;
+    }
+
+    .header__menu-mb__tel {
+        display: block;
+        margin-top: auto;
+        text-align: center;
+        
+    }
+
+    .header__menu-mb__tel a {
+        color: #fff;
+        text-decoration: none;
+    }
+
     .menu-active {
-        height: 70vh;
+        height: 100vh;
     }
 
     .header__burger {

@@ -6,10 +6,13 @@
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .hero__title {
-    max-width: 60%;
+    max-width: 440%;
     margin-bottom: 60px;
 }
 
@@ -29,7 +32,9 @@
 
 
 @media only screen and (max-width: 1200px) {
-   /**/
+  .hero__title {
+    max-width: 60%;
+  }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -37,6 +42,8 @@
 }
 
 @media only screen and (max-width: 992px) {
+ 
+
   .hero__main-title {
     font-size: 35px;
   }
