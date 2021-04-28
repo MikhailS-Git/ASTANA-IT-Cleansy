@@ -1,0 +1,87 @@
+.hero {
+    height: 100vh;
+    padding: 170px 0;
+    background-image: url("../img/hero/hero_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero__title {
+    max-width: 40%;
+    margin-bottom: 60px;
+}
+
+.hero__main-title {
+  font-size: 49px;
+  margin-bottom: 30px;
+}
+
+.hero__subtitle {
+    font-size: 25px;
+}
+
+.hero__button {
+    position: relative;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .hero__title {
+    max-width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+   /**/
+}
+
+@media only screen and (max-width: 992px) {
+ 
+
+  .hero__main-title {
+    font-size: 35px;
+  }
+
+  .hero__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+   /**/
+}
+
+@media only screen and (max-width: 576px) {
+  .hero {
+    padding: 120px 0;
+  }
+
+  .hero .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero__title {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .hero__button {
+    padding: 10px 30px;
+  }
+} 
+
+@media only screen and (min-width: 1660px) {
+  /**/
+}
